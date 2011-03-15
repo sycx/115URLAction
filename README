@@ -1,0 +1,8 @@
+115URLAction is an Action for Automator on OS X.
+
+input: URLs or Codes of 115.com resources
+output: direct download URLs
+
+Thanks:
+	115.com http://u.115.com/	
+	115SpeedUp Project https://github.com/realaddin/115SpeedUp
