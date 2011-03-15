@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAppleScriptBuildPhase section */
+		92A57D55132F2D42003E8347 /* AppleScript */ = {
+			isa = PBXAppleScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isSharedContext = 0;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXAppleScriptBuildPhase section */
+
+/* Begin PBXBuildFile section */
+		92A57D60132F2D42003E8347 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A57D5F132F2D42003E8347 /* Automator.framework */; };
+		92A57D62132F2D42003E8347 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A57D61132F2D42003E8347 /* Cocoa.framework */; };
+		92A57D6C132F2D42003E8347 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92A57D6A132F2D42003E8347 /* InfoPlist.strings */; };
+		92A57D6F132F2D42003E8347 /* _15URLAction.h in Resources */ = {isa = PBXBuildFile; fileRef = 92A57D6E132F2D42003E8347 /* _15URLAction.h */; };
+		92A57D71132F2D42003E8347 /* _15URLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A57D70132F2D42003E8347 /* _15URLAction.m */; };
+		92A57D74132F2D42003E8347 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92A57D72132F2D42003E8347 /* main.xib */; };
+		92A57D7C132F2D5A003E8347 /* AZ115URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A57D7B132F2D5A003E8347 /* AZ115URL.m */; };
+		92E50C49132F735700B4B676 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E50C38132F735700B4B676 /* NSObject+JSON.m */; };
+		92E50C4A132F735700B4B676 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E50C3A132F735700B4B676 /* SBJsonParser.m */; };
+		92E50C4B132F735700B4B676 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E50C3C132F735700B4B676 /* SBJsonStreamParser.m */; };
+		92E50C4C132F735700B4B676 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E50C3E132F735700B4B676 /* SBJsonStreamParserAdapter.m */; };
+		92E50C4D132F735700B4B676 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E50C40132F735700B4B676 /* SBJsonStreamParserState.m */; };
+		92E50C4E132F735700B4B676 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E50C42132F735700B4B676 /* SBJsonStreamWriter.m */; };
+		92E50C4F132F735700B4B676 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E50C44132F735700B4B676 /* SBJsonStreamWriterState.m */; };
+		92E50C50132F735700B4B676 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E50C46132F735700B4B676 /* SBJsonTokeniser.m */; };
+		92E50C51132F735700B4B676 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E50C48132F735700B4B676 /* SBJsonWriter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92A57D5C132F2D42003E8347 /* 115URLAction.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 115URLAction.action; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A57D5F132F2D42003E8347 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		92A57D61132F2D42003E8347 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		92A57D64132F2D42003E8347 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		92A57D65132F2D42003E8347 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		92A57D66132F2D42003E8347 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92A57D69132F2D42003E8347 /* 115URLAction-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "115URLAction-Info.plist"; sourceTree = "<group>"; };
+		92A57D6B132F2D42003E8347 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92A57D6D132F2D42003E8347 /* 115URLAction-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "115URLAction-Prefix.pch"; sourceTree = "<group>"; };
+		92A57D6E132F2D42003E8347 /* _15URLAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _15URLAction.h; sourceTree = "<group>"; };
+		92A57D70132F2D42003E8347 /* _15URLAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _15URLAction.m; sourceTree = "<group>"; };
+		92A57D73132F2D42003E8347 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/main.xib; sourceTree = "<group>"; };
+		92A57D7A132F2D59003E8347 /* AZ115URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZ115URL.h; sourceTree = "<group>"; };
+		92A57D7B132F2D5A003E8347 /* AZ115URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZ115URL.m; sourceTree = "<group>"; };
+		92E50C36132F735700B4B676 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = JSON/JSON.h; sourceTree = "<group>"; };
+		92E50C37132F735700B4B676 /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+JSON.h"; path = "JSON/NSObject+JSON.h"; sourceTree = "<group>"; };
+		92E50C38132F735700B4B676 /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JSON.m"; path = "JSON/NSObject+JSON.m"; sourceTree = "<group>"; };
+		92E50C39132F735700B4B676 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = JSON/SBJsonParser.h; sourceTree = "<group>"; };
+		92E50C3A132F735700B4B676 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = JSON/SBJsonParser.m; sourceTree = "<group>"; };
+		92E50C3B132F735700B4B676 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParser.h; path = JSON/SBJsonStreamParser.h; sourceTree = "<group>"; };
+		92E50C3C132F735700B4B676 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParser.m; path = JSON/SBJsonStreamParser.m; sourceTree = "<group>"; };
+		92E50C3D132F735700B4B676 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAdapter.h; path = JSON/SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		92E50C3E132F735700B4B676 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAdapter.m; path = JSON/SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		92E50C3F132F735700B4B676 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserState.h; path = JSON/SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		92E50C40132F735700B4B676 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserState.m; path = JSON/SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		92E50C41132F735700B4B676 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriter.h; path = JSON/SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		92E50C42132F735700B4B676 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriter.m; path = JSON/SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		92E50C43132F735700B4B676 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterState.h; path = JSON/SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		92E50C44132F735700B4B676 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterState.m; path = JSON/SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		92E50C45132F735700B4B676 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonTokeniser.h; path = JSON/SBJsonTokeniser.h; sourceTree = "<group>"; };
+		92E50C46132F735700B4B676 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonTokeniser.m; path = JSON/SBJsonTokeniser.m; sourceTree = "<group>"; };
+		92E50C47132F735700B4B676 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = JSON/SBJsonWriter.h; sourceTree = "<group>"; };
+		92E50C48132F735700B4B676 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = JSON/SBJsonWriter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92A57D57132F2D42003E8347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A57D60132F2D42003E8347 /* Automator.framework in Frameworks */,
+				92A57D62132F2D42003E8347 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92A57D4E132F2D42003E8347 = {
+			isa = PBXGroup;
+			children = (
+				92A57D67132F2D42003E8347 /* 115URLAction */,
+				92A57D5E132F2D42003E8347 /* Frameworks */,
+				92A57D5D132F2D42003E8347 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92A57D5D132F2D42003E8347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92A57D5C132F2D42003E8347 /* 115URLAction.action */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92A57D5E132F2D42003E8347 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92A57D5F132F2D42003E8347 /* Automator.framework */,
+				92A57D61132F2D42003E8347 /* Cocoa.framework */,
+				92A57D63132F2D42003E8347 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92A57D63132F2D42003E8347 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92A57D64132F2D42003E8347 /* AppKit.framework */,
+				92A57D65132F2D42003E8347 /* CoreData.framework */,
+				92A57D66132F2D42003E8347 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		92A57D67132F2D42003E8347 /* 115URLAction */ = {
+			isa = PBXGroup;
+			children = (
+				92A57D7D132F3B8F003E8347 /* JSON */,
+				92A57D6E132F2D42003E8347 /* _15URLAction.h */,
+				92A57D70132F2D42003E8347 /* _15URLAction.m */,
+				92A57D7A132F2D59003E8347 /* AZ115URL.h */,
+				92A57D7B132F2D5A003E8347 /* AZ115URL.m */,
+				92A57D72132F2D42003E8347 /* main.xib */,
+				92A57D68132F2D42003E8347 /* Supporting Files */,
+			);
+			path = 115URLAction;
+			sourceTree = "<group>";
+		};
+		92A57D68132F2D42003E8347 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92A57D69132F2D42003E8347 /* 115URLAction-Info.plist */,
+				92A57D6A132F2D42003E8347 /* InfoPlist.strings */,
+				92A57D6D132F2D42003E8347 /* 115URLAction-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92A57D7D132F3B8F003E8347 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				92E50C36132F735700B4B676 /* JSON.h */,
+				92E50C37132F735700B4B676 /* NSObject+JSON.h */,
+				92E50C38132F735700B4B676 /* NSObject+JSON.m */,
+				92E50C39132F735700B4B676 /* SBJsonParser.h */,
+				92E50C3A132F735700B4B676 /* SBJsonParser.m */,
+				92E50C3B132F735700B4B676 /* SBJsonStreamParser.h */,
+				92E50C3C132F735700B4B676 /* SBJsonStreamParser.m */,
+				92E50C3D132F735700B4B676 /* SBJsonStreamParserAdapter.h */,
+				92E50C3E132F735700B4B676 /* SBJsonStreamParserAdapter.m */,
+				92E50C3F132F735700B4B676 /* SBJsonStreamParserState.h */,
+				92E50C40132F735700B4B676 /* SBJsonStreamParserState.m */,
+				92E50C41132F735700B4B676 /* SBJsonStreamWriter.h */,
+				92E50C42132F735700B4B676 /* SBJsonStreamWriter.m */,
+				92E50C43132F735700B4B676 /* SBJsonStreamWriterState.h */,
+				92E50C44132F735700B4B676 /* SBJsonStreamWriterState.m */,
+				92E50C45132F735700B4B676 /* SBJsonTokeniser.h */,
+				92E50C46132F735700B4B676 /* SBJsonTokeniser.m */,
+				92E50C47132F735700B4B676 /* SBJsonWriter.h */,
+				92E50C48132F735700B4B676 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92A57D5B132F2D42003E8347 /* 115URLAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A57D77132F2D42003E8347 /* Build configuration list for PBXNativeTarget "115URLAction" */;
+			buildPhases = (
+				92A57D55132F2D42003E8347 /* AppleScript */,
+				92A57D56132F2D42003E8347 /* Sources */,
+				92A57D57132F2D42003E8347 /* Frameworks */,
+				92A57D58132F2D42003E8347 /* Resources */,
+				92A57D59132F2D42003E8347 /* Rez */,
+				92A57D5A132F2D42003E8347 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 115URLAction;
+			productName = 115URLAction;
+			productReference = 92A57D5C132F2D42003E8347 /* 115URLAction.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92A57D50132F2D42003E8347 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 92A57D53132F2D42003E8347 /* Build configuration list for PBXProject "115URLAction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92A57D4E132F2D42003E8347;
+			productRefGroup = 92A57D5D132F2D42003E8347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92A57D5B132F2D42003E8347 /* 115URLAction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92A57D58132F2D42003E8347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A57D6C132F2D42003E8347 /* InfoPlist.strings in Resources */,
+				92A57D6F132F2D42003E8347 /* _15URLAction.h in Resources */,
+				92A57D74132F2D42003E8347 /* main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		92A57D59132F2D42003E8347 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92A57D5A132F2D42003E8347 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92A57D56132F2D42003E8347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A57D71132F2D42003E8347 /* _15URLAction.m in Sources */,
+				92A57D7C132F2D5A003E8347 /* AZ115URL.m in Sources */,
+				92E50C49132F735700B4B676 /* NSObject+JSON.m in Sources */,
+				92E50C4A132F735700B4B676 /* SBJsonParser.m in Sources */,
+				92E50C4B132F735700B4B676 /* SBJsonStreamParser.m in Sources */,
+				92E50C4C132F735700B4B676 /* SBJsonStreamParserAdapter.m in Sources */,
+				92E50C4D132F735700B4B676 /* SBJsonStreamParserState.m in Sources */,
+				92E50C4E132F735700B4B676 /* SBJsonStreamWriter.m in Sources */,
+				92E50C4F132F735700B4B676 /* SBJsonStreamWriterState.m in Sources */,
+				92E50C50132F735700B4B676 /* SBJsonTokeniser.m in Sources */,
+				92E50C51132F735700B4B676 /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92A57D6A132F2D42003E8347 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92A57D6B132F2D42003E8347 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		92A57D72132F2D42003E8347 /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92A57D73132F2D42003E8347 /* en */,
+			);
+			name = main.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92A57D75132F2D42003E8347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		92A57D76132F2D42003E8347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		92A57D78132F2D42003E8347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "115URLAction/115URLAction-Prefix.pch";
+				INFOPLIST_FILE = "115URLAction/115URLAction-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		92A57D79132F2D42003E8347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "115URLAction/115URLAction-Prefix.pch";
+				INFOPLIST_FILE = "115URLAction/115URLAction-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92A57D53132F2D42003E8347 /* Build configuration list for PBXProject "115URLAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A57D75132F2D42003E8347 /* Debug */,
+				92A57D76132F2D42003E8347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A57D77132F2D42003E8347 /* Build configuration list for PBXNativeTarget "115URLAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A57D78132F2D42003E8347 /* Debug */,
+				92A57D79132F2D42003E8347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92A57D50132F2D42003E8347 /* Project object */;
+}

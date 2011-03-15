@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMAccepts</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Optional</key>
+		<true/>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.url</string>
+		</array>
+	</dict>
+	<key>AMApplication</key>
+	<string>(* Primary Application used by this action goes here. *)</string>
+	<key>AMCanShowSelectedItemsWhenRun</key>
+	<false/>
+	<key>AMCanShowWhenRun</key>
+	<true/>
+	<key>AMCategory</key>
+	<string>AMCategoryInternet</string>
+	<key>AMDefaultParameters</key>
+	<dict>
+		<key>selectedSite</key>
+		<integer>0</integer>
+	</dict>
+	<key>AMDescription</key>
+	<dict>
+		<key>AMDInput</key>
+		<string>115 URLs</string>
+		<key>AMDResult</key>
+		<string>URLs</string>
+		<key>AMDSummary</key>
+		<string>This action convert 115 URLs to direct download URLs</string>
+		<key>AMDWebsite</key>
+		<string>(* AMDWebsite URL to additional information or documentation for the action goes here. (optional) *)</string>
+	</dict>
+	<key>AMIconName</key>
+	<string>(* The name of the icon *)</string>
+	<key>AMKeywords</key>
+	<array/>
+	<key>AMName</key>
+	<string>115URLAction</string>
+	<key>AMProvides</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.url</string>
+		</array>
+	</dict>
+	<key>AMRequiredResources</key>
+	<array/>
+	<key>AMWarning</key>
+	<dict>
+		<key>Action</key>
+		<string>(* Action name to be suggested to add prior to this action to make the task safer, e.g. com.apple.Automator.CopyFiles, goes here. *)</string>
+		<key>ApplyButton</key>
+		<string>(* Button label for user to add proposed Action, e.g. Add. *)</string>
+		<key>IgnoreButton</key>
+		<string>(* Button label for user not to add proposed Action, e.g. Don't Add. *)</string>
+		<key>Level</key>
+		<integer>0</integer>
+		<key>Message</key>
+		<string>(* Warning message presented to user goes here. *)</string>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.sycx.${PRODUCT_NAME:rfc1034identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2011年 sycx. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>_15URLAction</string>
+</dict>
+</plist>

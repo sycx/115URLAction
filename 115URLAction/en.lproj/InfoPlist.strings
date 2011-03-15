@@ -1,0 +1,32 @@
+/* Localized versions of Info.plist keys */
+
+/* AMApplication localized strings */
+/* e.g. "TextEdit" = "TextEdit"; */
+
+/* AMCategory localized strings */
+/* e.g. "Text" = "Text"; */
+
+AMName = "115URLAction";
+
+/* AMDefaultParameters localized values */
+/* e.g. myDefaultIntegerParameter = 0; */
+/* e.g. myDefaultStringParameter = "Default String Value"; */
+
+/* AMDescription localized strings */
+//AMDAlert = "(* AMDAlert text goes here. (optional) *)";
+AMDInput = "115 URLs";
+//AMDNote = "(* AMDNote text goes here. (optional) *)";
+//AMDOptions = "(* AMDOptions text to further explain configuration options in the UI goes here. (optional) *)";
+AMDResult = "URLs";
+//AMDRequires = "(* AMDRequires text to explain anything outside of Automator required for the action's operation, e.g. a web page open in Safari, goes here. (optional) *)";
+AMDSummary = "This action convert 115.com's URLs to direct download URLs";
+AMDWebsite = "https://github.com/sycx/115URLAction";
+
+/* AMKeyword localized strings */
+/* e.g. "Filter" = "Filter"; */
+
+/* AMWarning localized strings */
+ApplyButton = "(* Button label for user to add proposed Action, e.g. Add. *)";
+IgnoreButton = "(* Button label for user not to add proposed Action, e.g. Don't Add. *)";
+Message = "(* Warning message presented to user goes here. *)";
+
