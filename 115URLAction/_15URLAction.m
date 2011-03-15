@@ -28,13 +28,14 @@ enum siteIndex { kChinaUnicomIndex, kChinaTelecomIndex, kBackupIndex};
         if(azURL.isFounded)
             switch (index) {
                 case kChinaUnicomIndex:
-                    [output addObject:azURL.chinaUnicomString];
+                    
+                    [output addObject:[NSURL URLWithString:azURL.chinaUnicomString]];
                     break;
                 case kChinaTelecomIndex:
-                    [output addObject:azURL.chinaTelecomString];
+                    [output addObject:[NSURL URLWithString:azURL.chinaTelecomString]];
                     break;
                 case kBackupIndex:
-                    [output addObject:azURL.backupString];
+                    [output addObject:[NSURL URLWithString:azURL.backupString]];
                     break;
                     
                 default:
