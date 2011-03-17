@@ -17,6 +17,7 @@ typedef enum { kChinaUnicomIndex, kChinaTelecomIndex, kBackupIndex} SiteIndex;
 	NSString * chinaUnicomString;
 	NSString * chinaTelecomString;
 	NSString * backupString;
+    NSString * unknownString;
 	
 	NSString * fileNameString;
 }
@@ -26,6 +27,7 @@ typedef enum { kChinaUnicomIndex, kChinaTelecomIndex, kBackupIndex} SiteIndex;
 @property (nonatomic, copy) NSString *chinaUnicomString;
 @property (nonatomic, copy) NSString *chinaTelecomString;
 @property (nonatomic, copy) NSString *backupString;
+@property (nonatomic, copy) NSString *unknownString;
 @property (readonly) BOOL isFounded;
 
 #pragma mark methods

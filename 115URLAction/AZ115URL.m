@@ -17,6 +17,7 @@
 @synthesize chinaUnicomString;
 @synthesize chinaTelecomString;
 @synthesize backupString;
+@synthesize unknownString;
 @synthesize isFounded;
 
 - (void)dealloc
@@ -26,6 +27,7 @@
 	[chinaTelecomString release];
 	[backupString release];
 	[fileNameString release];
+    [unknownString release];
 	[super dealloc];
 }
 
@@ -44,19 +46,25 @@
     NSArray *downloadUrls = [retDict objectForKey:@"DownloadUrl"];
     for (id obj in downloadUrls) {
         NSString *urlString = [obj objectForKey:@"Url"];
-        if ([urlString doesContain:@"tel.115.cdn"])
+        if ([urlString rangeOfString:@"cnc.115.cdn"].location != NSNotFound
+            || [urlString rangeOfString:@"http://2.hot"].location != NSNotFound) 
+            self.chinaUnicomString = urlString;
+        
+        else if ([urlString rangeOfString:@"tel.115.cdn"].location != NSNotFound
+                 || [urlString rangeOfString:@"http://1.hot"].location != NSNotFound)
             self.chinaTelecomString = urlString;
-        else if ([urlString doesContain:@"cnc.115.cdn"])
-            self.chinaTelecomString = urlString;
-        else {
+        
+        else if ([urlString rangeOfString:@"bak.115.cdn"].location != NSNotFound
+                 || [urlString rangeOfString:@"http://bak"].location != NSNotFound)
             self.backupString = urlString;
-        }
+        
+        else self.unknownString = urlString;
     }
     
     if (!isFounded) {
         NSLog(@"->Warning:%@\t%@",pickcode,[retDict objectForKey:@"Message"]);
     }
-    //	NSLog(@"%@",retDict);
+    	//NSLog(@"%@",retDict);
 }
 
 -(NSURL *)URLWithSite:(SiteIndex) site
@@ -79,9 +87,11 @@
             break;
     }
     if (!str) {
-        if (self.backupString) str = self.backupString;
-        else if (self.chinaTelecomString) str = self.chinaTelecomString;
+        
+        if (self.chinaTelecomString) str = self.chinaTelecomString;
         else if (self.chinaUnicomString) str = self.chinaUnicomString;
+        else if (self.unknownString) str = self.unknownString;
+        else if (self.backupString) str = self.backupString;
     }
     if (!str) {
         return nil;
