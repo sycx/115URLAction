@@ -11,7 +11,7 @@
 
 @interface _15URLAction : AMBundleAction {
 @private
-    
+    NSDictionary *linkDict;
 }
 
 - (id)runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo;

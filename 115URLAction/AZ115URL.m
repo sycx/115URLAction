@@ -59,7 +59,7 @@
     //	NSLog(@"%@",retDict);
 }
 
--(NSURL *)URLWithSite:(siteIndex) site
+-(NSURL *)URLWithSite:(SiteIndex) site
 {
     if (!isFounded) {
         return nil;

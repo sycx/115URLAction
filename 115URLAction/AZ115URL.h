@@ -8,7 +8,7 @@
 //  Modified by sycx.
 
 #import <Cocoa/Cocoa.h>
-typedef enum { kChinaUnicomIndex, kChinaTelecomIndex, kBackupIndex} siteIndex;
+typedef enum { kChinaUnicomIndex, kChinaTelecomIndex, kBackupIndex} SiteIndex;
 
 @interface AZ115URL : NSObject {
 	NSString * a115URLString;
@@ -30,5 +30,5 @@ typedef enum { kChinaUnicomIndex, kChinaTelecomIndex, kBackupIndex} siteIndex;
 
 #pragma mark methods
 - (void)getURLsFrom115ApiWithURL:(NSString*)aurl;
--(NSURL *)URLWithSite:(siteIndex) site;
+-(NSURL *)URLWithSite:(SiteIndex) site;
 @end
