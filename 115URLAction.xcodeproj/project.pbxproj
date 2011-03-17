@@ -70,6 +70,7 @@
 		92E50C46132F735700B4B676 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonTokeniser.m; path = JSON/SBJsonTokeniser.m; sourceTree = "<group>"; };
 		92E50C47132F735700B4B676 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = JSON/SBJsonWriter.h; sourceTree = "<group>"; };
 		92E50C48132F735700B4B676 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = JSON/SBJsonWriter.m; sourceTree = "<group>"; };
+		92F087B813312BD6007A8265 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +108,7 @@
 			children = (
 				92A57D5F132F2D42003E8347 /* Automator.framework */,
 				92A57D61132F2D42003E8347 /* Cocoa.framework */,
+				92F087B813312BD6007A8265 /* AppleScriptObjC.framework */,
 				92A57D63132F2D42003E8347 /* Other Frameworks */,
 			);
 			name = Frameworks;

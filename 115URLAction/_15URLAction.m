@@ -9,8 +9,6 @@
 #import "_15URLAction.h"
 #import "AZ115URL.h"
 
-enum siteIndex { kChinaUnicomIndex, kChinaTelecomIndex, kBackupIndex};
-
 @implementation _15URLAction
 
 - (id)runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo
@@ -25,23 +23,10 @@ enum siteIndex { kChinaUnicomIndex, kChinaTelecomIndex, kBackupIndex};
     {
         AZ115URL *azURL = [[AZ115URL alloc] init];
         [azURL getURLsFrom115ApiWithURL:url];
-        if(azURL.isFounded)
-            switch (index) {
-                case kChinaUnicomIndex:
-                    
-                    [output addObject:[NSURL URLWithString:azURL.chinaUnicomString]];
-                    break;
-                case kChinaTelecomIndex:
-                    [output addObject:[NSURL URLWithString:azURL.chinaTelecomString]];
-                    break;
-                case kBackupIndex:
-                    [output addObject:[NSURL URLWithString:azURL.backupString]];
-                    break;
-                    
-                default:
-                    NSLog(@"No Found: %@",azURL.a115URLString);
-                    break;
-            }
+        NSURL *downlink = [azURL URLWithSite:index];
+        if(downlink) {
+            [output addObject:downlink];
+        }
         [azURL release];
     }
 	return output;
