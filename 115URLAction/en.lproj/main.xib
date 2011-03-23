@@ -198,15 +198,15 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					<object class="NSTextField" id="354472675">
 						<reference key="NSNextResponder" ref="595191707"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{56, 53}, {56, 17}}</string>
+						<string key="NSFrame">{{30, 53}, {82, 17}}</string>
 						<reference key="NSSuperview" ref="595191707"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="877305026"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="821420065">
 							<int key="NSCellFlags">68288064</int>
-							<int key="NSCellFlags2">272630784</int>
-							<string key="NSContents">服务器：</string>
+							<int key="NSCellFlags2">71304192</int>
+							<string key="NSContents">优先服务器：</string>
 							<reference key="NSSupport" ref="263504068"/>
 							<reference key="NSControlView" ref="354472675"/>
 							<reference key="NSBackgroundColor" ref="962360788"/>
@@ -562,6 +562,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					<string>100049.IBPluginDependency</string>
 					<string>100051.IBPluginDependency</string>
 					<string>100052.IBPluginDependency</string>
+					<string>100053.IBPluginDependency</string>
 					<string>5.IBEditorWindowLastContentRect</string>
 					<string>5.IBPluginDependency</string>
 					<string>5.ImportedFromIB2</string>
@@ -572,6 +573,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
